@@ -1,0 +1,111 @@
+:root {
+    box-sizing: border-box;
+    }
+    *,
+    ::before,
+    ::after {
+    box-sizing: inherit;
+    }
+    body {
+    background-color: #709b90;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+    body * + * {
+    margin-top: 1.5em;
+    }
+        
+    .all{
+        background-color: #eee;
+    }
+    body{
+        background-color: #eee;
+
+    }
+    body * + * {
+        margin-top: 1.5em;
+        }
+
+    .mcdavids{
+        background-color:#0072b0; 
+        color: #fff;
+        padding: 0.5em;
+        border-radius: 0.3em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .head{
+        max-width: 1080px;
+        margin: 0 auto;
+        
+    }
+    .ulnavbar{
+        display: flex;
+        list-style-type: none;
+        background-color: #fff;
+        box-shadow:0 1px 5px rgba(104, 104, 104, 0.8) ;
+padding: 0.5em;
+border-radius: 0.5em;
+margin: 0;
+    }
+    .ulnavbar > li{ 
+        flex: 0.1;
+        align-self: flex-start;
+    margin-top: 0;
+    }
+    .ulnavbar > li  > a {
+        display: block;
+        background-color:#0072b0; 
+        color: #fff;
+        margin-left: 1.5em;
+        text-decoration: none;
+        text-align: center;
+        padding: 0.5em 0.1em;
+        border-radius: 0.5em;
+        box-shadow:0 1px 5px rgba(104, 104, 104, 0.8) ;
+    }
+    .ulnavbar li a:hover{
+        background-color: #fff;
+ color:  #0072b0;
+
+    }
+    .support{
+        margin-left: auto;    
+    }
+    .container{
+        display: flex;}
+
+    .container > * + *{
+        margin-top: 0;
+        margin-left: 1.5em;
+    
+    }
+    
+    .maincontent{
+        flex: 2;
+        background-color: #fff;
+        padding: 0.5em 1em;
+        border-radius: 0.5em;
+        box-shadow:0 1px 5px rgba(104, 104, 104, 0.8) ;
+    }
+    
+    .sidebar{
+        flex: 1;
+        background-color: #fff;
+        padding: 0.5em 1em;
+        border-radius: 0.5em;
+        box-shadow:0 1px 5px rgba(104, 104, 104, 0.8) ;
+    }
+    button{
+        box-shadow:0 1px 5px rgba(104, 104, 104, 0.8) ;
+        background-color:#0072b0; 
+        border-radius: 0.5em;
+        color: #fff;
+    }
+    button:hover{background-color: #fff;
+        color:  #0072b0;
+        
+    }
+    .leftside{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 0.5em;
+    }
